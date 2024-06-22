@@ -32,6 +32,7 @@ solution "AssetCooker"
             {
                 "4244", -- 'return': conversion from '__int64' to 'int', possible loss of data
                 "4267", -- 'initializing': conversion from 'size_t' to 'int', possible loss of data
+                "4819", -- The file contains a character that cannot be represented in the current code page
             }
 
         filter { "configurations:Debug" }
