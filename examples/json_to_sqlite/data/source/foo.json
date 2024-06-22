@@ -1,0 +1,10 @@
+[
+    {
+        "id" : "my-stuff",
+        "stuff" : "these are my twisted words"
+    },
+    {
+        "id" : "other-stuff",
+        "stuff" : "the other stuff"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "id" : "bar-stuff",
+        "stuff" : "bar stuff"
+    },
+    {
+        "id" : "dar",
+        "stuff" : "the other stuff"
+    }
+]

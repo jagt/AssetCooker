@@ -1,0 +1,5 @@
+[[Rule]]
+Name = "Json2Db"
+InputFilters = [ { Repo = "Source", PathPattern = "*.json" } ]
+CommandLine = 'sqlite-utils insert { Repo:Bin }{ Dir }{ File }.db jsons { Repo:Source }{ Dir }{ File }.json --pk=id'
+OutputPaths = [ '{ Repo:Bin }{ Dir }{ File }.db' ]
